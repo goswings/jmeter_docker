@@ -1,0 +1,6 @@
+# Use vinsdocker base image
+FROM eason/jmeter-base:v1
+MAINTAINER eason
+
+# Ports to be exposed from the container for JMeter Master
+EXPOSE 60000
